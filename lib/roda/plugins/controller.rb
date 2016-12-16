@@ -97,8 +97,6 @@ class Roda
           result = dispatch(to, args: args, inject: inject)
 
           view("#{controller_key}/#{action}")
-
-          result
         end
       end
     end
